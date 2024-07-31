@@ -1,0 +1,243 @@
+<html><head><base href="https://vtc-reservation.example.com/%20faire%20la%20possibilit%C3%A9%20quand%20un%20client%20fait%20une%20reservation%20heure%20date%20plus%20dl'adresse%20d%C3%A9part%20et%20d'arriv%C3%A9e,%20le%20site%20m'envoit%20un%20r%C3%A9sum%C3%A9%20de%20tous%20ces%20information%20%C3%A0%20l'adresse%20emsdriver@gmail.com,%20je%20souhaite%20aussi%20int%C3%A9grer%20une%20pub%20ou%20une%20video%20sur%20le%20m%C3%A9tier%20de%20VTC?%20RETIR%20LA%20VIDEO,%20je%20souhaite%20mettre%20en%20arri%C3%A8re%20plan%20une%20image%20des%20voiures%20VTC,%20retirer%20la%20partie%20d%C3%A9couvrir%20le%20m%C3%A9tier%20vtc">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EMS DRIVER - Votre Service VTC de Confiance</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+  }
+  header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header #branding {
+    float: left;
+  }
+  header #branding h1 {
+    margin: 0;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+  }
+  header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+  }
+  #showcase {
+    min-height: 400px;
+    background: url('https://example.com/vtc-cars-background.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  }
+  #showcase h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  #showcase p {
+    font-size: 20px;
+  }
+  #boxes {
+    margin-top: 20px;
+  }
+  #boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+  #boxes .box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .contact-info {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .reservation-form {
+    background: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .reservation-form h2 {
+    text-align: center;
+    color: #35424a;
+  }
+  .reservation-form input[type="text"],
+  .reservation-form input[type="datetime-local"],
+  .reservation-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .reservation-form input[type="submit"] {
+    background: #e8491d;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .reservation-form input[type="submit"]:hover {
+    background: #35424a;
+  }
+  #confirmation {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">EMS DRIVER</span> VTC</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Accueil</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Votre Chauffeur VTC de Confiance</h1>
+      <p>Réservez votre trajet en toute simplicité et voyagez confortablement</p>
+    </div>
+  </section>
+
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src="https://example.com/driver-photo.jpg" alt="Photo du chauffeur VTC, homme souriant en costume">
+        <h3>Votre Chauffeur</h3>
+        <p>Khaldoun DAOUD</p>
+      </div>
+      <div class="box">
+        <img src="https://example.com/car-photo.jpg" alt="Photo du véhicule VTC, berline noire luxueuse">
+        <h3>Notre Véhicule</h3>
+        <p>TOYOTA AURIS BREAK NOIR</p>
+      </div>
+      <div class="box">
+        <img src="https://example.com/company-logo.jpg" alt="Logo de la société VTC, design moderne et élégant">
+        <h3>Notre Société</h3>
+        <p>EMS DRIVER</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="contact-info">
+      <h2>Contactez-nous</h2>
+      <p>Adresse : 9, Avenue Aristide Maillol 95370 Montigny les Cormeilles</p>
+      <p>Email : emsdriver@gmail.com</p>
+      <p>Téléphone : 06 26 76 29 40</p>
+    </section>
+
+    <section class="reservation-form">
+      <h2>Réservez votre trajet</h2>
+      <form id="reservationForm">
+        <input type="datetime-local" name="pickup_time" required placeholder="Date et heure de prise en charge">
+        <input type="text" name="pickup_address" required placeholder="Adresse de départ">
+        <input type="text" name="dropoff_address" required placeholder="Adresse d'arrivée">
+        <input type="submit" value="Réserver">
+      </form>
+    </section>
+
+    <div id="confirmation">
+      Merci pour votre réservation ! Un résumé a été envoyé à emsdriver@gmail.com. Nous vous contacterons bientôt pour confirmer les détails.
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const form = document.getElementById('reservationForm');
+      const confirmation = document.getElementById('confirmation');
+
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const pickupTime = form.querySelector('[name="pickup_time"]').value;
+        const pickupAddress = form.querySelector('[name="pickup_address"]').value;
+        const dropoffAddress = form.querySelector('[name="dropoff_address"]').value;
+        
+        if (pickupTime && pickupAddress && dropoffAddress) {
+          // Simuler l'envoi d'un e-mail (dans un environnement réel, cela serait géré côté serveur)
+          const emailData = {
+            to: 'emsdriver@gmail.com',
+            subject: 'Nouvelle réservation VTC',
+            body: `
+              Nouvelle réservation :
+              Date et heure : ${pickupTime}
+              Adresse de départ : ${pickupAddress}
+              Adresse d'arrivée : ${dropoffAddress}
+            `
+          };
+
+          // Simuler une requête API pour envoyer l'e-mail
+          axios.post('https://api.example.com/send-email', emailData)
+            .then(response => {
+              console.log('Email envoyé avec succès');
+              form.reset();
+              confirmation.style.display = 'block';
+              setTimeout(() => {
+                confirmation.style.display = 'none';
+              }, 5000);
+            })
+            .catch(error => {
+              console.error('Erreur lors de l\'envoi de l\'email', error);
+              alert('Une erreur est survenue lors de la réservation. Veuillez réessayer.');
+            });
+        } else {
+          alert('Veuillez remplir tous les champs pour effectuer une réservation.');
+        }
+      });
+    });
+  </script>
+</body></html>
